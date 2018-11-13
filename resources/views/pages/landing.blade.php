@@ -386,7 +386,7 @@
                                     <div class="item">
                                         <figure class="lightbox animated-overlay overlay-alt clearfix">
                                             <img src="img/landing/3.jpg" class="attachment-full">
-                                            <a class="view" href="img/landing/3.jpg" rel="image-gallery"></a>
+                                            <a class="view" href="img/landing/2.png" rel="image-gallery"></a>
                                             <figcaption>
                                                 <div class="thumb-info">
                                                     <h4>"Perfil de Usuario".</h4>
@@ -399,7 +399,7 @@
                                     <div class="item">
                                         <figure class="lightbox animated-overlay overlay-alt clearfix">
                                             <img src="img/landing/4.jpg" class="attachment-full">
-                                            <a class="view" href="img/landing/4.jpg" rel="image-gallery"></a>
+                                            <a class="view" href="img/landing/1.png" rel="image-gallery"></a>
                                             <figcaption>
                                                 <div class="thumb-info">
                                                     <h4>Lorem ipsum dolor sit amet.</h4>
@@ -412,7 +412,7 @@
                                     <div class="item">
                                         <figure class="lightbox animated-overlay overlay-alt clearfix">
                                             <img src="img/landing/1.jpg" class="attachment-full">
-                                            <a class="view" href="img/landing/1.jpg" rel="image-gallery"></a>
+                                            <a class="view" href="img/landing/1.png" rel="image-gallery"></a>
                                             <figcaption>
                                                 <div class="thumb-info">
                                                     <h4>Lorem ipsum dolor sit amet.</h4>
