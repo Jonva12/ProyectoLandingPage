@@ -14,5 +14,11 @@
 Route::get('/', function () {
     return view('pages/landing');
 });
+Route::get('/inicioSesion', function(){
+	return view('pages/inicioSesion');
+});
+Route::get('/registro', function(){
+	return view('pages/registro');
+});
 
 Route::get('/enviarConsulta', 'enviarController@enviarConsulta');

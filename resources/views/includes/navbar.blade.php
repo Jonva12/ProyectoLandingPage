@@ -39,7 +39,7 @@
                             <a data-hash href="#contacto"><i class="fa fa-comment-o"></i>Contacto</a>
                         </li>
                         <li>
-                            <a data-hash href="#"><i class="fa fa-user"></i>Iniciar Sesion</a>
+                            <a href="/inicioSesion"><i class="fa fa-user"></i>Iniciar Sesion</a>
                         </li>
                     </ul>
                 </nav>

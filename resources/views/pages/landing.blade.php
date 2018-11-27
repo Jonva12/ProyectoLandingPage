@@ -2,17 +2,12 @@
 @section('title','WCSearch Landing Page')
 @section('content')
 <div id="container">
-
         <!--Set your own slider options. Look at the v_RevolutionSlider() function in 'theme-core.js' file to see options-->
         <div class="home-slider-wrap fullwidthbanner-container" id="home">
             <div class="v-rev-slider" data-slider-options='{ "startheight": 700 }'>
-
                 <ul>
-
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-
                         <img src="img/slider/image2.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-
                         <div class="tp-caption v-caption-big-white sfl stl"
                             data-x="450"
                             data-y="245"
@@ -28,7 +23,6 @@
                             <br />
                             DE MANERA RAPIDA Y SENCILLA
                         </div>
-
                         <div class="tp-caption sfl stl"
                             data-x="110"
                             data-y="130"
@@ -43,28 +37,19 @@
                             <!--<a href='#' class="btn v-btn v-third-light">GET IT NOW!</a>-->
                             <img src="img/iphone2.png" />
                         </div>
-
-
-
                         <!--<div class="v-slider-overlay overlay-colored"></div>-->
                     </li>
                 </ul>
             </div>
-
             <div class="shadow-right"></div>
         </div>
-
         <div class="v-page-wrap no-bottom-spacing">
-
             <div class="container">
                 <div class="v-spacer col-sm-12 v-height-small"></div>
             </div>
-
             <!--Features-->
             <div class="container" id="features">
-
                 <div class="row center">
-
                     <div class="col-sm-12">
                         <p class="v-smash-text-large-2x">
                             <span>Caracteristicas de la aplicacion</span>
@@ -76,7 +61,6 @@
                     </div>
                     <div class="v-spacer col-sm-12 v-height-standard"></div>
                 </div>
-
                   <div class="row features">
                       <div class="col-md-4 col-sm-4">
                           <div class="feature-box left-icon v-animation pull-top" data-animation="fade-from-left" data-delay="300">
@@ -500,6 +484,5 @@
         </div>
 
     </div>
-
     <!--// BACK TO TOP //-->
 @stop
