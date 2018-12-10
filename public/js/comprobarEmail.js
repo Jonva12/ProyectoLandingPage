@@ -31,4 +31,79 @@ function validar(){
 		//valido
 		document.getElementById("email").style.color="green";
 	}
+
+jQuery(function() {
+	jQuery( "#registro" ).validate({
+		rules: {
+			nif: {
+				minlength: 9,
+				maxlength: 9,
+			},
+			nombre: {
+				required: true,
+				minlength: 2,
+				maxlength: 20
+			},
+			apellidos: {
+				required: true,
+				minlength: 2,
+				maxlength: 40
+			},
+			email: {
+				required: true
+			},
+			telefono: {
+				required: true,
+				minlength: 9,
+				maxlength: 9,
+				number: true
+			},
+			calle: {
+				minlength: 2,
+				maxlength: 40
+			},
+			postal: {
+				required: true,
+				minlength: 5,
+				maxlength: 5,
+				number: true
+			}
+		},
+		messages:{
+			nif:{
+				minlength:"Demasido corto",
+				maxlength:"Demasido largo",
+			},
+			nombre:{
+				required:"Campo obligatorio",
+				minlength:"Minimo 2 caracteres",
+				maxlength:"Demasido largo"
+			},
+			apellidos:{
+				required:"Campo obligatorio",
+				minlength:"Minimo 2 caracteres",
+				maxlength:"Demasido largo"
+			},
+			email:{
+				required:"Campo obligatorio"
+			},
+			telefono:{
+				minlength:"Minimo 9 caracteres",
+				maxlength:"Maximo 9 caracteres",
+				number:"Introduce solo numeros",
+				required:"Campo obligatorio"
+			},
+			calle:{
+				minlength:"Minimo 2 caracteres",
+				maxlength:"Maximo 40 caracteres"
+			},
+			postal:{
+				required:"Campo obligatorio",
+				minlength:"Minimo 5 caracteres",
+				maxlength:"Maximo 5 caracteres",
+				number:"Introduce solo numeros"
+			}
+
+		}
+   });
 }

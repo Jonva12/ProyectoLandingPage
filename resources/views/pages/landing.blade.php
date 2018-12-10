@@ -210,6 +210,23 @@
                 </div>
             </div>
             <!--End Describe-->
+            <!--Video-->
+              <div class="video"> 
+                <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="makeBig()">Big</button>
+                <button onclick="makeSmall()">Small</button>
+                <button onclick="makeNormal()">Normal</button>
+                <br><br>
+                <video id="video1" width="420" autoplay controls>
+                  <source src="video/mov_bbb.mp4" type="video/mp4">
+                  <source src="video/mov_bbb.ogv" type="video/ogg">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2Vss3avr0cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div> 
+            <!--End Video-->
 
             <!--Services-->
             <div class="v-parallax v-parallax-video v-bg-stylish" id="services" style="background-image: url(img/slider/slider4.jpg);">

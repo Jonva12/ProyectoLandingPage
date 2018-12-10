@@ -14,3 +14,5 @@
     <script src="{{asset('assets/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 
     <script src="{{asset('js/theme-core.js')}}"></script>
+    <script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
+    <script src="{{asset('js/video.js')}}"></script>
