@@ -10,20 +10,20 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,800,900" rel="stylesheet" type="text/css">
 
     <!-- Libs CSS -->
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/style.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/v-nav-menu.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/v-animation.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/v-bg-stylish.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/v-shortcodes.css')}}" rel="stylesheet" />
-    <link href="{{asset('css/theme-responsive.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/owl-carousel/owl.theme.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/owl-carousel/owl.carousel.css')}}" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/v-nav-menu.css" rel="stylesheet" />
+    <link href="css/v-animation.css" rel="stylesheet" />
+    <link href="css/v-bg-stylish.css" rel="stylesheet" />
+    <link href="css/v-shortcodes.css" rel="stylesheet" />
+    <link href="css/theme-responsive.css" rel="stylesheet" />
+    <link href="('assets/owl-carousel/owl.theme.css')" rel="stylesheet" />
+    <link href="('assets/owl-carousel/owl.carousel.css')" rel="stylesheet" />
 
     <!-- Current Page CSS -->
-    <link href="{{asset('assets/rs-plugin/css/settings.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/rs-plugin/css/custom-captions.css')}}" rel="stylesheet" />
+    <link href="('assets/rs-plugin/css/settings.css')" rel="stylesheet" />
+    <link href="('assets/rs-plugin/css/custom-captions.css')" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
+    <link rel="stylesheet" href="css/custom.css">
